@@ -1,0 +1,170 @@
+body {
+	background: #FFFFFF;
+}
+
+header {
+	background: #FFFFFF;
+	overflow: hidden;
+}
+
+a {
+	color: #565D64; 
+	font-family: sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 15px 10px 10px;
+}
+
+.header span {
+	color: black;
+}
+
+.hero {
+	background: #FFFFFF;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/responsive-site/master/background.jpg);
+	background-position: 50% 0%; 
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px 0px 50px 0px;
+}
+
+.hero h1 {
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 32px; 
+	font-weight: normal;
+	text-shadow: 1px 1px 1px #000;
+	text-align: center;
+	margin: 0
+}
+
+.plans {
+	margin-bottom: 110px;
+}
+
+.plan-parent {
+	border: 1px solid #DDDDDD;
+	margin: 0px 9px 35px 9px;
+}
+
+.low-price {
+	background-color: #539154;
+	padding: 35px 130px 35px 130px;
+}
+
+.mid-price {
+	background-color: #2E4A83;
+	padding: 35px 95px 35px 95px;
+}
+
+.high-price {
+	background-color: #111111;
+	padding: 35px 130px 35px 130px;
+}
+
+.plan-pricing-header h1 {
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	font-weight: normal;
+	letter-spacing: 5px;
+	margin: 0;
+}
+
+.plan-pricing-header h2 {
+	color: white; 
+	font-size: 85px;
+	text-align: center;
+	font-weight: lighter;
+	margin: 0;
+}
+
+.low-price p {
+	color: #A8C7A8;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.mid-price p {
+	color: #96A4C1;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.high-price p {
+	color: #878787;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.plan-content ul {
+	background-color: #F7F7F7;
+	margin: 0;
+	padding: 0px;
+}
+
+li {
+	list-style: none;
+	color: #526066;
+	text-align: center;
+	border-bottom: 1px solid #DDDDDD;
+	padding: 18px;
+	padding-left: 0px;
+}
+
+.plan-action {
+	padding: 25px 145px 25px 145px;
+	text-align: center;
+}
+
+.plan-action a {
+	font-weight: bold;
+	border: 1px solid #DDDDDD;
+	border-radius: 2em;
+}
+
+.benefits {
+	margin-bottom: -30px;
+	padding: 0px 30px 0px 30px;
+}
+
+.benefits-parent {
+	margin-bottom: 60px;
+}
+
+.benefits h1 {
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 7px;
+	/*margin-top: 110px;*/
+}
+
+.benefits p {
+	color: #526066;
+	line-height: 1.5em;
+	/*margin-bottom: 60px;*/
+}
+
+footer {
+	background-color: black;
+	text-align: center;
+	color: #888888;
+	padding: 30px 0px 30px 0px;
+}
+
+span {
+	color: white;
+	text-decoration: underline;
+}
+
+
+
+
