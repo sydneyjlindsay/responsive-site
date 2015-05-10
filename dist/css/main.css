@@ -24,10 +24,11 @@ a {
 	padding-top: 70px;
 	padding-bottom: 70px;
 	background-image: url(https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/responsive-site/master/background.jpg);
-	background-position: 50% 0%; 
+	/*background-position: 50% 0%; */
 	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-size: cover;*/
 	margin: 0px 0px 50px 0px;
+	text-align: center;
 }
 
 .hero h1 {
@@ -37,11 +38,12 @@ a {
 	font-weight: normal;
 	text-shadow: 1px 1px 1px #000;
 	text-align: center;
-	margin: 0
+	margin: 0 auto;
 }
 
 .plans {
 	margin-bottom: 110px;
+	text-align: center;
 }
 
 .plan-parent {
@@ -56,7 +58,7 @@ a {
 
 .mid-price {
 	background-color: #2E4A83;
-	padding: 35px 95px 35px 95px;
+	padding: 35px 85px 35px 95px;
 }
 
 .high-price {
@@ -116,7 +118,7 @@ li {
 	color: #526066;
 	text-align: center;
 	border-bottom: 1px solid #DDDDDD;
-	padding: 18px;
+	padding: 13px;
 	padding-left: 0px;
 }
 
@@ -141,9 +143,9 @@ li {
 }
 
 .benefits h1 {
-	font-size: 20px;
+	font-size: 19px;
 	font-weight: 500;
-	letter-spacing: 7px;
+	letter-spacing: 5px;
 	/*margin-top: 110px;*/
 }
 
@@ -157,14 +159,58 @@ footer {
 	background-color: black;
 	text-align: center;
 	color: #888888;
-	padding: 30px 0px 30px 0px;
+	padding: 30px 45px 30px 45px;
 }
 
-span {
+footer p {
+	font-size: 16px;
+	line-height: 1.5em;
+}
+footer span {
 	color: white;
 	text-decoration: underline;
 }
 
+@media (min-width: 478px) {
+	body {
+		max-width: 400px;
+	}
+}
 
+@media (min-width: 767px) {
+	body {
+		max-width: 480px;
+	}
+	.hero {
+		height: 400px;
+		padding: 0;
+		overflow: hidden;
+		text-align: center;
+	}
+	.hero h1 {
+		margin-top: 150px;
+		
+	}
+	.hero h1 {
+		margin-bottom: 150px;
+		font-size: 50px;
+	}
+	.plan-pricing-header {
+		height: 220px;
+		padding: 0; 
+		overflow: hidden;
+		text-align: center;
+	}
+	.plan-pricing-header h1 {
+		margin-top: 32px;
+		font-size: 17px;
+	}
+	.plan-pricing-header h2 {
+		font-size: 100px;
+	}
+	.plan-pricing-header p {
+		font-size: 20px;
+	}
+}
 
 
