@@ -250,11 +250,12 @@ footer span {
 		width: 45%;
 		display: inline;
 		float: left;
-		/*display: inline-block;*/
+	/*	display: inline-block;*/
 		padding: 1%;
+		margin-bottom: 0;
 	}
 
-	.benefits-2 {
+	.benefits2 {
 		display: block;
 		overflow: hidden;
 		padding: 4%;
@@ -281,4 +282,29 @@ footer span {
 	}
 }
 
+@media (min-width: 979px) {
+	body {
+		max-width: none;
+		display: inline-block;
+	}
 
+	.plans {
+		margin-left: 150px;
+	}
+
+	.plan-parent {
+		width: 310px;
+	}
+
+	.benefits {
+		display: inline-block;
+		margin-left: 90px;
+		margin-right: 70px;
+	}
+
+	.benefits2 {
+		display: inline-block;
+		margin-left: 90px;
+		margin-right: 70px;
+	}
+}
